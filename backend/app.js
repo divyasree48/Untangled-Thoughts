@@ -140,3 +140,8 @@ app.post('/getStats', async (req, res) => {
     res.status(500).json('Failed to get statistics');
   }
 } );
+app.get('/afterinterview', (req, res) => {
+
+res.json('hello from back end');
+
+})
